@@ -55,6 +55,11 @@ header img{
 
 .label-red{
     bottom: 30px;
+    left: 0px;
+}
+
+.label-red-with-green{
+    bottom: 30px;
     left: 105px;
 }
 
