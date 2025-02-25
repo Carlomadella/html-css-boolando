@@ -3,16 +3,93 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
 }
+
+main{
+    padding-top: 100px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+header img{
+    width:100%;
+    height: 30px;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.card{
+    width: 100%;
+    position: relative;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.label{
+    width: fit-content;
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+}
+
+.label-green{
+    bottom: 30px;
+    left:0px;
+}
+
+.label-red{
+    bottom: 30px;
+    left: 105px;
+}
+
+.heart{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.heart-content{
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+
+
+/* FLEXBOX */
 
 .space-around{
     justify-content: space-around;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
 .display-flex{
     display: flex;
+}
+
+.display-block{
+    display: block;
 }
 
 .inline-block{
@@ -23,20 +100,27 @@
     align-items: center;
 }
 
-header{
-    width: 100%;
-    height: 50px;
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
-header img{
-    width:100%;
-    height: 30px;
-}
+/* HEIGHT e WIDTH */
 
-/* PADDING */
+/* PADDING e MARGIN */
+.m-0-10{
+    margin: 0px 10px;
+}
 
 .p-10{
     padding: 10px;
+}
+
+.m-5-0{
+    margin: 5px 0px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
 }
 
 /* COLORI */
@@ -45,6 +129,22 @@ header img{
     background-color: #FF6900;
 }
 
+.bg-color-green{
+    background-color: green;
+}
+
 .color-white{
     color: white;
 }
+
+.bg-color-red{
+    background-color: red;
+}
+
+.color-red{
+    color: red;
+}
+
+.barrato {
+    text-decoration: line-through;
+  }
