@@ -78,6 +78,9 @@ header img{
     left: 7px;
 }
 
+.hidden{
+    display: none;
+}
 
 /* FLEXBOX */
 
@@ -110,7 +113,9 @@ header img{
 }
 
 /* HEIGHT e WIDTH */
-
+.h-100{
+    height: 100px;
+}
 /* PADDING e MARGIN */
 .m-0-10{
     margin: 0px 10px;
@@ -128,7 +133,11 @@ header img{
     margin-bottom: 10px;
 }
 
-/* COLORI */
+.mt-10{
+    margin-top: 10px;
+}
+
+/* COLOR & TEXT DECORATION*/
 
 .bg-color-orange{
     background-color: #FF6900;
@@ -138,12 +147,16 @@ header img{
     background-color: green;
 }
 
-.color-white{
-    color: white;
-}
-
 .bg-color-red{
     background-color: red;
+}
+
+.bg-color-black{
+    background-color: black;
+}
+
+.color-white{
+    color: white;
 }
 
 .color-red{
@@ -152,4 +165,4 @@ header img{
 
 .barrato {
     text-decoration: line-through;
-  }
+}
